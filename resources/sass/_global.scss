@@ -1,0 +1,95 @@
+.content-main-wrapper {
+    margin-left: 300px;
+    padding: 30px;
+}
+.fixed-top {
+    height: 50px;
+}
+.modal-backdrop{
+	opacity: 0.60;
+}
+.text-danger{
+    margin: 0px;
+
+    ul{
+        margin: 0px;
+    }
+}
+.fa {
+    padding: 0 5px;
+}
+.btn{
+	&.btn-default {
+	    color: #fff;
+	    background: #2b303a;
+	    margin: 10px 0;
+
+        &:hover{
+            color: #2b303a;
+            background: #aaabae;
+            border: 1px solid #aaabae;
+        }
+	}
+    &.btn-white {
+        color: #2b303a;
+        background: #fff;
+        margin: 10px 0;
+        border: 1px solid #2b303a;
+
+        &:hover{
+            color: #2b303a;
+            background: #aaabae;
+            border: 1px solid #aaabae;
+        }
+    }
+}
+input{
+    &.form-control {
+        margin: 10px 0;
+
+        &:focus {
+            outline: none;
+            border: 1px solid #ced4da !important;
+            box-shadow: none !important;
+        }
+    }
+}
+.table-responsive {
+    margin: 10px 0;
+}
+.table {
+    thead{
+        th {
+            padding: 15px;
+            font-size: 16px;
+            text-shadow: none;
+        }
+    }
+    td {
+        padding: 15px !important;
+
+        .btn {
+            padding: 0;
+            font-size: 20px;
+        }
+    }
+}
+.btn:focus {
+    outline: none !important;
+    box-shadow: none !important;
+}
+.modal-footer{
+    margin: 30px 0 10px;
+    border-top: 1px solid #dee2e6;
+    padding: 0px
+}
+.vdp-datepicker input {
+    color: #495057;
+    background-color: #fff;
+    background-clip: padding-box;
+    border: 1px solid #ced4da;
+    border-radius: 0.25rem;
+    padding: 0.375rem 0.75rem;
+    width: 100%;
+    margin: 10px 0;
+}

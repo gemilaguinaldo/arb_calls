@@ -1,0 +1,19 @@
+// Fonts
+@import url('https://fonts.googleapis.com/css?family=Nunito');
+
+//Import
+@import 'variables';
+@import 'login';
+@import 'global';
+@import 'sidebar';
+@import 'dashboard';
+@import 'navbar';
+
+// Bootstrap
+@import '~bootstrap/scss/bootstrap';
+
+// Font-Awesome
+@import "~font-awesome/scss/font-awesome";
+
+// Bootstrap Datepicker
+@import "~bootstrap-datepicker/dist/css/bootstrap-datepicker3.css";
